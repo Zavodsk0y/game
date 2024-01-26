@@ -1,0 +1,142 @@
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.f-wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.bg-yel {
+    background: #FFE17F;
+}
+
+.u-c {
+    text-transform: uppercase;
+}
+
+.col-wh {
+    color: white;
+}
+
+.b-2-40 {
+    width: 2px;
+    height: 40px;
+    background: black;
+}
+
+.s-f {
+    width: 517px;
+    height: 40px;
+    border-radius: 35px;
+    border: 2px solid black;
+}
+
+.s-i {
+    background: none;
+    border: none;
+    color: black;
+}
+
+.r-50-pl {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    opacity: 0.3;
+}
+
+.r-s {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: 0;
+}
+
+.r-s-a {
+    background: black;
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+.l-s-20 {
+    letter-spacing: 3px;
+}
+
+.t-d-n {
+    text-decoration: none;
+}
+
+.l-sl {
+    position: absolute;
+    left: 21%;
+}
+
+.r-sl {
+    position: absolute;
+    left: 47%;
+}
+
+.col-bl {
+    color: black;
+}
+
+.t-a-j {
+    text-align: justify;
+}
+
+.b-n {
+    border: none;
+}
+
+.ro-40-40 {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    border-radius: 50%;
+    background: url("../images/icons/Frame.svg") #DCDCDC;
+}
+
+.b-84-7 {
+    width: 84px;
+    height: 7px;
+    background: black;
+}
+
+.d-560-90 {
+    width: 560px;
+    height: 90px;
+}
+
+.i-560-b-3 {
+    width: 560px;
+    border: none;
+    border-bottom: 3px solid #C4C4C4;
+}
+
+.s-b {
+    border: 2px solid #C4C4C4;
+}
+
+.bg-dark {
+    background: #444444;
+}
+
+.b-80-7 {
+    width: 80px;
+    height: 7px;
+    background: #FFC700;
+}
+
+.f-ro-40-40 {
+    width: 40px;
+    height: 40px;
+    background: white;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+

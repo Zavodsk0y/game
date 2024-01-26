@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/move.js" defer></script>
+    <script src="./scripts/generation.js" defer></script>
+    <title>Тимон и Пумба</title>
+</head>
+<body id="body">
+<section class="wrapper welcome">
+    <h2 class="p-t-2rem">Добро пожаловать в игру "Тимон и Пумба"!</h2>
+    <form id="form">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name">
+        <h4>Выберите персонажа для игры:</h4>
+        <label for="timon" id="character">Тимон</label>
+        <input type="radio" name="character" id="timon" value="timon" onclick="charPerson(this.value)" required>
+        <label for="pumba">Пумба</label>
+        <input type="radio" name="character" id="pumba" value="pumba" onclick="charPerson(this.value)" required>
+        <button type="submit" id="startGame">Начать</button>
+    </form>
+    <h3>Инструкция игры:</h3>
+    <p class="animation-text">Это инструкция с анимированным текстом (появление, увеличение и исчезание)</p>
+</section>
+<div class="wrapper video">
+    <video muted="muted" class="hidden" id="video" controls autoplay>
+        <source src="./Media/Timon%20_%20Pumbaa%20-%20Title%20Song%20%5BEnglish%20Version%5D.mp4" type="video/mp4">
+    </video>
+</div>
+<section class="game hidden">
+    <div class="info p-t-2rem">
+        <p class="p-name"></p>
+        <p class="hp">Ваше здоровье: 100</p>
+        <p>Съедено гусениц: </p>
+        <time id="timer">00:00</time>
+    </div>
+    <div class="p-a" id="appearance">
+        <img class="charImage">
+    </div>
+</section>
+<section class="pause hidden p-t-2rem">
+    <h3 class="col-wh">Пауза</h3>
+    <h4 class="col-wh">Нажмите Esc, чтобы продолжить</h4>
+</section>
+<section class="wrapper hidden gameover d-f j-c-c a-i-c f-d-c g-3rem p-t-2rem">
+    <h2>Игра окончена!</h2>
+    <button class="newGame-btn">Играть заново</button>
+</section>
+<div id="pillar" class="p-a"></div>
+</body>
+</html>

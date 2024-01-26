@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Rubik";
+    src: url("../fonts/Rubik-Regular.ttf");
+}
+
+.f-w-700 {
+    font-weight: 700;
+}
+
+.f-w-400 {
+    font-weight: 400;
+}
+
+.f-s-50 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.t-d-u {
+    text-decoration: underline;
+}

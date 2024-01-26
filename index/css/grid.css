@@ -1,0 +1,12 @@
+.d-g {
+    display: grid;
+}
+
+.g-t-c-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.g-t-c-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+

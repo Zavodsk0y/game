@@ -1,0 +1,27 @@
+.m-t-1rem {
+    margin-top: 1rem;
+}
+
+.p-t-2rem {
+    padding-top: 2rem;
+}
+
+.p-t-1rem {
+    padding-top: 1rem;
+}
+
+.p-a {
+    position: absolute;
+}
+
+.p-s {
+    position: static;
+}
+
+.g-1rem {
+    gap: 1rem;
+}
+
+.g-3rem {
+    gap: 3rem;
+}

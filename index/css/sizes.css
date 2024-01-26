@@ -1,0 +1,42 @@
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.f-s-180 {
+    font-size: 180px;
+}
+
+.h-300p {
+    height: 300px;
+}
+
+.c-i {
+    width: 160px;
+    height: 160px;
+}
+
+.w-250-h-40 {
+    width: 250px;
+    height: 40px;
+    background: black;
+    color: #FFE17F;
+}
+
+.p-w-280-h-319 {
+    width: 7px;
+    height: 319px;
+    background: black;
+}
+
+.w-450p {
+    width: 450px;
+}
+
+.w-125-h-100 {
+    width: 125px;
+    height: 100px;
+}
