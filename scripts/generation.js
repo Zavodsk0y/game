@@ -35,18 +35,18 @@ function hyenaMove() {
         const maxWidth = window.innerWidth - hyena.clientWidth;
 
         if (hyenaData.distance >= 500 || hyena.offsetLeft <= 0 || hyena.offsetLeft >= maxWidth) {
-            hyenaData.direction *= -1; // Change direction when the distance limit or screen edge is reached
+            hyenaData.direction *= -1;
             hyenaData.distance = 0;
         }
 
-        const newPosition = hyena.offsetLeft + 2 * hyenaData.direction; // Adjust the speed here
+        const newPosition = hyena.offsetLeft + 2 * hyenaData.direction;
         hyena.style.left = Math.min(Math.max(newPosition, 0), maxWidth) + 'px';
 
-        hyenaData.distance += 2; // Adjust the distance increment accordingly
+        hyenaData.distance += 2;
     }
 
     if (!isPaused && !gameOverFlag) {
-        requestAnimationFrame(hyenaMove); // Continue the animation
+        requestAnimationFrame(hyenaMove);
     }
 }
 
