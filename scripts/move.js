@@ -88,24 +88,6 @@ function isCollision(firstEl, secondEl) {
         chara.top > pillar.bottom)
 }
 
-// if (isCollision(character, obstacle)) {
-//     const obstacleArea = obstacle.getBoundingClientRect();
-//     const characterArea = character.getBoundingClientRect();
-//
-//     if (characterArea.bottom > obstacleArea.top && characterArea.top < obstacleArea.top) {
-//         character.style.top = (obstacleArea.top - character.clientHeight) + 'px';
-//     }
-//     else if (characterArea.top < obstacleArea.bottom && characterArea.bottom > obstacleArea.bottom) {
-//         character.style.top = (obstacleArea.bottom) + 'px';
-//     }
-//     else if (characterArea.right > obstacleArea.left && characterArea.left < obstacleArea.left) {
-//         character.style.left = (obstacleArea.left - character.clientWidth) + 'px';
-//     }
-//     else if (characterArea.left < obstacleArea.right && characterArea.right > obstacleArea.right) {
-//         character.style.left = (obstacleArea.right) + 'px';
-//     }
-// }
-
 
 
 
